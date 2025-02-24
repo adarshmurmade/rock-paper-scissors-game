@@ -138,3 +138,100 @@ h6{
     justify-content:center;
     align-items: center;
 }
+
+@media screen and (max-width:980px){
+   
+body{
+    background-color: rgb(17, 225, 253);
+}
+
+.heading {
+    height: 500px;
+    background-color: rgb(226, 141, 43);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    border-bottom: 5px solid white
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+#rock {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-right: 50px;
+    border-radius: 50%;
+    background-image: url(https://static.thenounproject.com/png/477914-200.png);
+    background-size: cover;
+}
+
+#paper {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(https://static.thenounproject.com/png/477922-200.png);
+    background-size: cover;
+}
+
+#scissor {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-image: url(https://brendan-fisher.github.io/rock_paper_scissors/images/scissors.png);
+    background-size: cover;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 400px;
+}
+
+.score {
+    font-size: 110px;
+    margin-top: 100px;
+    height: 300px;
+    width: 100px;
+    margin-right: 85px;
+}
+
+.msg {
+    height: 200px;
+    width: 320px;
+    background-color: rgb(145, 11, 255);
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+h6 {
+    font-size: 6rem;
+    margin-left: 77px;
+}
+
+h5 {
+    margin-left: 50px;
+    font-size: 6rem;
+}
+
+
+}
