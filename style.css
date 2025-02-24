@@ -233,5 +233,25 @@ h5 {
     font-size: 6rem;
 }
 
+#scis {
+    margin-top: 310px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#pap{
+    margin-top: 310px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#rok {
+    margin-top: 310px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 100px;
+}
 
 }
