@@ -146,7 +146,6 @@ body{
 }
 
 .heading {
-    width: 1200px;
     height: 500px;
     background-color: rgb(226, 141, 43);
     color: white;
@@ -238,21 +237,21 @@ h5 {
     margin-top: 310px;
     margin-left: 30px;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #pap{
     margin-top: 310px;
     margin-left: 30px;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #rok {
     margin-top: 310px;
     margin-left: 30px;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .score p{
