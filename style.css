@@ -1,0 +1,140 @@
+
+body{
+    background-color: rgb(253, 198, 17);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    height: 100px;
+    background-color:blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 5px solid white;
+}
+
+#rock{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-image: url("https://static.thenounproject.com/png/477914-200.png");
+    background-size: cover;
+    
+}
+
+#rok{
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#paper{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("https://static.thenounproject.com/png/477922-200.png");
+    background-size: cover;
+}
+
+#pap{
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#scissor{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: url("https://brendan-fisher.github.io/rock_paper_scissors/images/scissors.png");
+    background-size: cover;
+}
+
+#scis{
+    margin-top: 110px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+   
+}
+
+.container :hover{
+    cursor: pointer;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+h5{
+    margin-left: 13px;
+    font-size: 2rem;
+}
+
+h6{
+    margin-left: 13px;
+    font-size: 2rem;
+    margin-left: 17px;
+}
+
+.score{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px; 
+    height: 100px;
+    width: 100px;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.msg{
+    height: 60px;
+    width: 220px;
+    background-color: rgb(145, 11, 255);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  
+}
+
+.msg p{
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
